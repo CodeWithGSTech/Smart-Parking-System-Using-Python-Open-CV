@@ -1,0 +1,4 @@
+# Save the image fot ROI Selection
+cv2.imwrite("frame.jpg", image)
+video.release()
+cv2.destroyAllWindows()
